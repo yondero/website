@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/yondero/yondero.github.io.git
+	branch = master
