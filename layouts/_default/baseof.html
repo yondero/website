@@ -10,5 +10,8 @@
     {{ partial "menu/nav.html" . }}
     {{ block "main" . }}{{ end }}
     {{ block "scripts" .}}{{ end }}
+
+    {{ $nav := resources.Get "js/nav.js" | minify | fingerprint }}
+    <script type="text/javascript" src="{{ $nav.RelPermalink }}" defer></script>
   </body>
 </html>

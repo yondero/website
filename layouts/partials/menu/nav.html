@@ -6,31 +6,34 @@
           <img src="/images/logo.png" alt="Yondero" height="28">
         </a>
       {{ end }}
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <a id="navbar-button" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div class="navbar-menu">
+
+    <div id="navbar-menu" class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-white is-medium" href="https://github.com/yondero">
-              <span class="icon">
-                <i class="fab fa-github"></i>
-              </span>
-            </a>
-            <a class="button is-white is-medium" href="https://twitter.com/YonderoCo">
-              <span class="icon">
-                <i class="fab fa-twitter"></i>
-              </span>
-            </a>
-            {{ range .Site.Menus.main }}
-              <a class="button is-white is-medium" href="{{ .URL }}">{{ .Name }}</a>
-            {{ end }}
-          </div>
+          <a class="button is-white is-medium" href="https://github.com/yondero">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+          </a>
         </div>
+        <div class="navbar-item">
+          <a class="button is-white is-medium" href="https://twitter.com/YonderoCo">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+          </a>
+        </div>
+        {{ range .Site.Menus.main }}
+          <div class="navbar-item">
+              <a class="button is-white is-medium" href="{{ .URL }}">{{ .Name }}</a>
+          </div>
+        {{ end }}
       </div>
     </div>
   </div>
