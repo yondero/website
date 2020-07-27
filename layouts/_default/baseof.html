@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head/metadata.html" . }}
+    {{ partial "head/favicons.html" . }}
+    {{ partial "head/styles.html" . }}
+    <title>{{ .Site.Title }} | {{ .Page.Title }}</title>
+  </head>
+  <body>
+    {{ partial "menu/nav.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ block "scripts" .}}{{ end }}
+  </body>
+</html>

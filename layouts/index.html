@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <section class="hero">
+    <div class="hero-body">
+      <div class="has-text-centered">
+        <canvas class="logo" width="350" height="300"></canvas>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="content is-medium">
+        {{ .Content }} 
+      </div>
+    </div>
+  </section>
+{{ end }}
+
+{{ define "scripts" }}
+  {{ $zdog := resources.Get "js/zdog.js" | minify | fingerprint }}
+  <script type="text/javascript" src="{{ $zdog.RelPermalink }}" defer></script>
+
+  {{ $logo := resources.Get "js/logo.js" | minify | fingerprint }}
+  <script type="text/javascript" src="{{ $logo.RelPermalink }}" defer></script>
+{{ end }}
