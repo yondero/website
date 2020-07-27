@@ -8,7 +8,7 @@ draft: false
 {{% column "is-6 is-offset-3" %}}
 ## Build without limits
 
-Yondero is a decentralized, open source platform 
+Yondero is a decentralized, open source developer platform 
 that enables you to build the next generation of software.
 {{% /column %}}
 {{< /columns >}}
