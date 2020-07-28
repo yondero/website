@@ -9,6 +9,6 @@ draft: false
 ## Build without limits
 
 Yondero is a decentralized, open source developer platform 
-that enables you to build the next generation of software.
+that enables you to take ownership of your code.
 {{% /column %}}
 {{< /columns >}}
