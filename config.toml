@@ -5,14 +5,3 @@ title = "Yondero"
 [params]
 description = "Decentralized Developer Platform"
 keywords = "blockchain, distributed, decentralized, p2p, web3, open source, software, developer"
-
-[menu]
-  [[menu.main]]
-    identifier = "Docs"
-    name = "Docs"
-    url = "/docs"
-
-  [[menu.docs]]
-    identifier = "repository"
-    name = "Repository"
-    url = "/docs/contracts/repository"
