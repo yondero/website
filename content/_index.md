@@ -1,5 +1,5 @@
 ---
-title: "Decentralized Devloper Platform"
+title: "Decentralized Developer Platform"
 date: 2020-07-24T14:07:58-07:00
 draft: false
 ---

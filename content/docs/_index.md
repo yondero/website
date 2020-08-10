@@ -1,7 +1,7 @@
 ---
 title: "Docs"
 date: 2020-07-24T19:29:11-07:00
-draft: false
+draft: true
 ---
 
 # Getting Started
