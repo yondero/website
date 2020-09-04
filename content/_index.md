@@ -8,7 +8,30 @@ draft: false
 {{% column "is-6 is-offset-3" %}}
 ## Build without limits
 
-Yondero is a decentralized, open source developer platform 
-that enables you to take ownership of your code.
+Yondero is a decentralized developer platform.
 {{% /column %}}
 {{< /columns >}}
+
+---
+
+### Own your code
+
+Your code is stored and shared through a peer-to-peer network.
+
+---
+
+### Built for Web3
+
+Integrate with DApps for trust-less payments and more.
+
+---
+
+### Decentralized
+
+Never let a server outage stop you from working.
+
+---
+
+### OpenSource
+
+Built for the community by the community.
